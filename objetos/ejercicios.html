@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <h1>Ejemplos</h1>
+    <pre>
+Ejercicio 1:
+    const auto = {
+        marca: "Toyota",
+        modelo: "Corolla",
+        año: 2020
+    };
+
+    
+Ejercicio 2:
+    let persona = {
+        nombre: "Ana",
+        edad: 25
+    };
+    persona.edad = 26;
+    persona.profesion = "Ingeniera";
+
+        
+Ejercicio 3: 
+    const libro = {
+        titulo: "Cien años de soledad",
+        autor: "Gabriel García Márquez",
+        año: 1967
+    };
+    const { titulo, autor } = libro;
+
+        
+Ejercicio 4:
+    const alumnos = [
+        { nombre: "Lucas", nota: 8 },
+        { nombre: "Sofía", nota: 9 },
+        { nombre: "Martín", nota: 7 }
+    ];
+    let mejor = alumnos[0];
+    for (let alumno of alumnos) {
+        if (alumno.nota > mejor.nota) {
+            mejor = alumno;
+        }
+    }      
+    </pre>
+</body>
+    <div>
+        <script src="./ejercicios.js"></script>
+        <a href="./consignas_objetos.html">Volver a consignas</a>
+    </div>
+</html>
